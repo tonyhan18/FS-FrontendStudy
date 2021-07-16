@@ -1,0 +1,19 @@
+.box{
+	width: 100px;
+	height: 100px;
+	background-color: orange;
+	transition: 1s;
+}
+
+.box:focus {
+	width: 300px;
+	background-color: royalblue;
+}
+
+input{
+
+}
+
+input:focus{
+	background-color: orange;
+}
