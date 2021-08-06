@@ -4,3 +4,7 @@ Docs/
 
 *.zip
 *.pdf
+
+node_modules/
+.cache/
+dist/
