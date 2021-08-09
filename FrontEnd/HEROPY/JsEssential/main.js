@@ -298,3 +298,49 @@
 
 // console.log(myCar)
 // console.log(daughtersCar)
+
+
+
+// JS 데이터
+
+// String: "", '', ``
+// Number
+// Boolean: true, false
+// undefined
+// null
+// Array: []
+// Object: {}
+
+
+
+// indexOf
+// const str = 'Hello world!'
+// console.log(str.slice(6))
+
+// replace
+// const str = 'Hello world!'
+// console.log(str.replace('world','tonyhan'))
+
+//match
+// const str = 'ourclub7279@gmail.com'
+// console.log(str.match(/.+(?=@)/))
+// console.log(str.match(/.+(?=@)/)[0])
+
+// trim
+// const str = '    Hello world		'
+// console.log(str)
+// console.log(str.trim())
+
+// 형변환
+const pi = 3.14159265358979
+console.log(pi)
+
+const str = pi.toFixed(2)
+console.log(str)
+console.log(typeof str)
+
+const integer = parseInt(str)
+const float = parseFloat(str)
+console.log(integer)
+console.log(float)
+console.log(typeof integer, typeof float)
