@@ -13,41 +13,102 @@
 	<div id="root">
 		<script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
 		<script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
-		<script type="text/javascript">
-			React.createElement(
-				
-			)
-		</script>
 
+		<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
-		<!-- <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 		<script type="text/babel">
-			console.log(React)
-			console.log(ReactDOM)
 
-			// 정의
-			{/* class ClassComponent extends React.Component {
+			{/* function Component(props) {
+				return (
+					<div>
+						<h1>{props.message}</h1>
+					</div>
+					)
+			}
+
+			Component.defaultProps = {
+				message="기본값"
+			} */}
+
+			{/* class Component extends React.Component {
+				// state = {
+				// 	count: 0,
+				// }
+				constructor(props) {
+					super(props);
+
+					this.state = {
+						count : 0
+					}
+				}
+
 				render() {
-					return <div>Hello</div>
+					return (
+						<div>
+							<h1>
+								{this.props.message} 이것은 함수로 만든 컴포넌트입니다.
+							</h1>
+							<p>{this.state.count}</p>
+						</div>
+					)
+				}
+				componentDidMount() {
+					setTimeout(() => {
+						// this.setState({
+						// 	count: this.state.count + 1,
+						// });
+						this.ListeningStateChangedEvent((previousState) => {
+							const newState = {count: previousState.count + 1}
+							return newState
+						})
+					}, 1000)
+				}
+
+				static defaultProps = {
+					message: "기본값"
+				}
+			} */}
+
+			{/* ReactDOM.render(
+			<Component message="안녕하세요!!!"/>, 
+			document.querySelector('#root')
+			) */}
+
+			{/* function Component() {
+				return <div><button onClick={() => {
+					console.log('clicked')
+				}}>클릭</button></div>
+			} */}
+
+			class Component extends React.Component {
+				state = {
+					count: 0
+				}
+				// constructor(props) {
+				// 	super(props)
+				// 	this.click = this.click.bind(this)
+				// }
+				render() {
+					return (
+						<div>
+						<p>{this.state.count}</p>
+						<button onClick={this.click}>
+							클릭
+						</button>
+					</div>
+					)
+				}
+				click = () =>{
+					console.log('clicked')
+					this.setState((state) => ({
+						...state,
+						count:state.count + 1,
+					}))
 				}
 			}
 
-			// 사용
-			ReactDOM.render(<ClassComponent />, document.querySelector('#root')); */}
-
-			// 정의 1
-			//function FunctionComponent() {
-			//	return <div>Hello</div>
-			//}
-
-			// 사용
-			//ReactDOM.render(<FunctionComponent />, document.querySelector('#root'))
-
-			// 정의 2
-			const FunctionComponent = () => <div>Hello</div>
-
-			ReactDOM.render(<FunctionComponent />, document.querySelector('#root'))
-		</script> -->
+			ReactDOM.render(<Component />, document.querySelector('#root'))
+		</script>
 	</div>
 
 </body>
