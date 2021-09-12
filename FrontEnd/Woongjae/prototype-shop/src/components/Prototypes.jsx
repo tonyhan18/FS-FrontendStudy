@@ -9,7 +9,8 @@ export default function Prototypes() {
 	return (
 		<main>
 			<div className="prototypes">
-        {prototypes.map(prototype => {
+        {
+				prototypes.map(prototype => {
 				const {id, thumbnail, title, price, desc, pieUrl} = prototype;
         const click = () => {
           addToOrder(id);

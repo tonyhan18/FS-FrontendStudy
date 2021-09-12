@@ -3,6 +3,7 @@
 <br>
 
 # 학습한내용
-|강의 명|링크|
-|:--|:--|
-|- 한 번에 끝내는 프론트엔드 개발 초격차 패키지 Online||
+|강의 명|깃헙주소|강의주소|
+|:--|:--|:--|
+| ● 한 번에 끝내는 프론트엔드 개발 초격차 패키지 Online|[FrontEnd](https://github.com/tonyhan18/FastCampusStudy/tree/master/FrontEnd)| [link](https://fastcampus.co.kr/dev_online_frontend)|
+| ● 한 번에 끝내는 프론트엔드 개발 초격차 패키지 Online | BackEnd | [link](https://fastcampus.co.kr/dev_online_javaend) |
