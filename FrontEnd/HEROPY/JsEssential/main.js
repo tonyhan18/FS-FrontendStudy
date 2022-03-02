@@ -15,8 +15,6 @@
 // 	ulEl.appendChild(li)
 // }
 
-
-
 // 변수 유효범위
 // var, let, const
 
@@ -27,8 +25,6 @@
 // 	console.log(a)
 // }
 // scope()
-
-
 
 // 형 변환 (Type conversion)
 
@@ -47,8 +43,6 @@
 // 	console.log(123)
 // }
 
-
-
 //////////////////////////////////////
 
 // 함수 복습
@@ -57,17 +51,17 @@
 // function sum1(x, y) {
 // 	return x + y
 // }
+
 // // 익명 함수
 // const sum2 = function (x, y) {
 // 	return x + y
 // }
+
 // function sum3() {
 // 	console.log(arguments)
 // 	return arguments[0] + arguments[1]
 // }
 // console.log(sum3(1,3))
-
-
 
 // 화살표 함수
 // () => {} vs function () {}
@@ -84,7 +78,6 @@
 // const doubleArrow3 = x => {x * 2}
 // const doubleArrow4 = x => ({name: "tonyhan18"})
 // console.log('doubleArrow : ', doubleArrow2(3))
-
 
 // 즉시실행함수
 // IIFE, Immediately-Invoked Function Expression
@@ -103,9 +96,6 @@
 // 	console.log(a*2)
 // }());
 
-
-
-
 // 호이스팅(Hoisting)
 // 함수 선언부가 유효범위 최상단으로 끌어올려지는 현상
 
@@ -115,9 +105,6 @@
 // function double() {
 // 	console.log(a * 2)
 // }
-
-
-
 
 // 타이머 함수
 // setTimeout(함수, 시간): 일정 시간 후 함수 실행
@@ -134,8 +121,6 @@
 // 	clearInterval(timer)
 // })
 
-
-
 // 콜백(Callback)
 // 함수의 인수로 사용되는 함수
 
@@ -150,8 +135,6 @@
 // timeout(() => {
 // 	console.log('Done!')
 // })
-
-
 
 // 클래스
 // function User(first, last) {
@@ -169,7 +152,6 @@
 // console.log(tonyhan.getFullName())
 // console.log(wolf)
 // console.log(glass)
-
 
 // this
 // 일반(Normal) 함수는 호출 위치에 따라 this 정의!
@@ -195,7 +177,6 @@
 // wolf.normal()
 // wolf.arrow()
 
-
 // function User(name) {
 // 	this.name = name
 // }
@@ -210,7 +191,6 @@
 // tonyhan.normal()
 // tonyhan.arrow()
 
-
 // const timer = {
 // 	name: 'tonyhan',
 // 	timeout: function() {
@@ -220,8 +200,6 @@
 // 	}
 // }
 // timer.timeout()
-
-
 
 // const tonyhan = {
 // 	name: 'tonyhan',
@@ -235,9 +213,6 @@
 
 // tonyhan.normal()
 // tonyhan.arrow()
-
-
-
 
 // ES6 Classes
 // function User(first, last) {
@@ -265,7 +240,6 @@
 // console.log(tonyhan.getFullName())
 // console.log(wolf)
 // console.log(glass)
-
 
 // 상속
 // class Vehicle {
@@ -299,8 +273,6 @@
 // console.log(myCar)
 // console.log(daughtersCar)
 
-
-
 // JS 데이터
 
 // String: "", '', ``
@@ -310,8 +282,6 @@
 // null
 // Array: []
 // Object: {}
-
-
 
 // indexOf
 // const str = 'Hello world!'
@@ -332,15 +302,15 @@
 // console.log(str.trim())
 
 // 형변환
-const pi = 3.14159265358979
-console.log(pi)
+const pi = 3.14159265358979;
+console.log(pi);
 
-const str = pi.toFixed(2)
-console.log(str)
-console.log(typeof str)
+const str = pi.toFixed(2);
+console.log(str);
+console.log(typeof str);
 
-const integer = parseInt(str)
-const float = parseFloat(str)
-console.log(integer)
-console.log(float)
-console.log(typeof integer, typeof float)
+const integer = parseInt(str);
+const float = parseFloat(str);
+console.log(integer);
+console.log(float);
+console.log(typeof integer, typeof float);

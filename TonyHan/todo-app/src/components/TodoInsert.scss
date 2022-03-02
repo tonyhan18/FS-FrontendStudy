@@ -1,0 +1,38 @@
+.TodoInsert {
+  display: flex;
+  background-color: #495057;
+  input {
+    //1. 크기조정
+    //2. 위치조정
+    padding: 0.5em;
+    flex: 1;
+    //3. 꾸미기조정
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 1.125em;
+    line-height: 1.5;
+    &::placeholder {
+      color: #dee2e6;
+    }
+  }
+  button {
+    //1. 위치 지정
+    display: flex;
+    align-items: center;
+    //2. 크기 지정
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    //3. 꾸미기 지정
+    background: none;
+    outline: none;
+    border: none;
+    background: #868e96;
+    cursor: pointer;
+    transition: 0.1s background ease-in;
+    &:hover {
+      background: #adb5bd;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.TodoTemplate {
+  //1. 위치 지정
+  margin-top: 6em;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+  //2. 너비 지정
+  width: 75%;
+  overflow: hidden;
+  //3. 꾸미기 지정
+
+  .app-title {
+    //1. 위치 지정
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    //2. 너비 지정
+    height: 4rem;
+    //3. 꾸밈 지정
+    background-color: #22b8cf;
+    font-size: 1.5rem;
+    color: white;
+  }
+  .content {
+    //1. 위치 지정
+    //2. 너비 지정
+    //3. 꾸밈 지정
+    background-color: white;
+  }
+}

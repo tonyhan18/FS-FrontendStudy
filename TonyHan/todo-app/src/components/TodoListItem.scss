@@ -1,0 +1,56 @@
+.TodoListItem {
+  //1. 위치
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  //2. 크기
+  //3. 꾸미기
+  &:nth-child(even) {
+    background-color: #f8f9fa;
+  }
+  .checkbox {
+    //1. 위치
+    display: flex;
+    align-items: center;
+    flex: 1;
+    //2. 크기
+    //3. 꾸미기
+    cursor: pointer;
+    svg {
+      //1. 위치
+      //2. 크기
+      font-size: 1.5rem;
+      //3. 꾸미기
+    }
+    .text {
+      //1. 위치
+      margin-left: 0.5rem;
+      flex: 1;
+      //2. 크기
+      //3. 꾸미기
+    }
+    &.checked {
+      svg {
+        color: #22b8cf;
+      }
+      .text {
+        color: #adb6bd;
+        text-decoration: line-through;
+      }
+    }
+  }
+  .remove {
+    //1. 위치
+    display: flex;
+    //2. 크기
+    //3. 꾸미기
+    color: #ff6b6b;
+    font-size: 1.5rem;
+    cursor: pointer;
+    MdRemoveCircleOutline {
+      //1. 위치
+      //2. 크기
+      //3. 꾸미기
+    }
+  }
+}
