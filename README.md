@@ -12,10 +12,9 @@
 
 [![https://vibrant-kepler-1348de.netlify.app/](image/shop1.jpg)](https://vibrant-kepler-1348de.netlify.app/)
 
-| 프로젝트 이름 | 사용기술 | 코드주소 |
-배포주소 |  
-| ------------- | --------------------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| 쇼핑몰 | - React<br> - CSS<br> | [Prototype-Shop](https://github.com/tonyhan18/FastCampusStudy/tree/master/FrontEnd/Woongjae/prototype-shop) | [https://github.com/tonyhan18/FastCampusStudy/tree/master/FrontEnd/Woongjae/prototype-shop](https://github.com/tonyhan18/FastCampusStudy/tree/master/FrontEnd/Woongjae/prototype-shop) |
+| 프로젝트 이름 | 사용기술                                | 코드주소                                                                                                    | 배포주소                                                                                                                                                                               |
+| ------------- | --------------------------------------- | ----------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 스타벅스      | - HTML<br> - CSS<br> - JS<br> - DOM<br> | [Prototype-Shop](https://github.com/tonyhan18/FastCampusStudy/tree/master/FrontEnd/Woongjae/prototype-shop) | [https://github.com/tonyhan18/FastCampusStudy/tree/master/FrontEnd/Woongjae/prototype-shop](https://github.com/tonyhan18/FastCampusStudy/tree/master/FrontEnd/Woongjae/prototype-shop) |
 
 # 패캠 학습내용 정리 깃헙
 
